@@ -1,0 +1,230 @@
+/*
+ * Style tweaks
+ * --------------------------------------------------
+ */
+html,
+body {
+    overflow-x: hidden; /* Prevent scroll on narrow devices */
+    color: #8e8d8d;
+    font-family: 'Arvo';
+}
+footer {
+    padding: 30px 0;
+}
+
+h2 {
+    font: 2.9em 'Arvo', serif;
+    line-height: 0.8em;
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 3px;
+    padding-bottom: 20px;
+}
+.header_wrapper {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    height: 10px;
+    background-color: #3a7aa6;
+    clear: both;
+}
+
+.main {
+    background-color: rgb(245, 244, 244);
+    padding: 20px;
+}
+
+.name {
+    margin-bottom: 15px;
+    font: 4em 'Arvo', serif; /* 60px/10 */
+    line-height: 0.66666666em; /* 40px/60px */
+    font-weight: bold;
+    color: #464646;
+    /* Positioning & Display */
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 2;
+}
+
+.section {
+    font-size: 0.9em;
+    font-weight: normal;
+}
+
+.description .role {
+    font-family: inherit;
+    line-height: 1.1;
+    color: inherit;
+    font: 2.1em 'Arvo', serif; /* 21px/10 */
+    font-weight: normal;
+    color: #616161;
+    margin: -4px 0 25px 0;
+}
+
+.description img{
+    padding-right: 20px;
+    padding-bottom: 20px;
+    float: left;
+}
+
+.description .note{
+    display: block;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    font-family: 'Droid Sans', sans-serif; /* 14px/10 */
+    font-size: 0.91em;
+    line-height: 1.4em;
+    color: #8e8d8d;
+    text-align: left;
+}
+
+.connect .title {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font: 1.6em 'Arvo', serif; /* 29px/10 */
+    color: #464646;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-top: 0;
+}
+
+.connect .details{
+    padding-top: 30px;
+    padding-bottom: 24px;
+}
+
+.connect .details .row{
+    padding-left: 20px;
+}
+
+
+.facebook, .linkedin, .tweets, .flickr, .deviant, .dribbble  {
+    float:left;
+    padding-left:12px;
+    display:block;
+}
+
+.facebook a {
+    background:url("../images/facebook.png") no-repeat scroll 0 0 transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.facebook a:hover {
+    background:url("../images/facebook.png") no-repeat scroll 0 -34px transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+}
+
+.linkedin a {
+    background:url("../images/linkedin.png") no-repeat scroll 0 0 transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.linkedin a:hover {
+    background:url("../images/linkedin.png") no-repeat scroll 0 -34px transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+}
+
+.tweets a {
+    background:url("../images/twitter.png") no-repeat scroll 0 0 transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+    -webkit-transition:all 0.2s ease-in-out;
+    -moz-transition:all 0.2s ease-in-out;
+    -o-transition:all 0.2s ease-in-out;
+    -ms-transition:all 0.2s ease-in-out;
+    transition:all 0.2s ease-in-out;
+}
+
+.tweets a:hover {
+    background:url("../images/twitter.png") no-repeat scroll 0 -34px transparent;
+    border:0 none;
+    display:block;
+    float:left;
+    height:33px;
+    margin-right:3px;
+    text-indent:-9999px;
+    width:30px;
+}
+@media screen and (max-width: 767px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+    }
+
+    .row-offcanvas-right {
+        right: 0;
+    }
+
+    .row-offcanvas-left {
+        left: 0;
+    }
+
+    .row-offcanvas-right
+    .sidebar-offcanvas {
+        right: -50%; /* 6 columns */
+    }
+
+    .row-offcanvas-left
+    .sidebar-offcanvas {
+        left: -50%; /* 6 columns */
+    }
+
+    .row-offcanvas-right.active {
+        right: 50%; /* 6 columns */
+    }
+
+    .row-offcanvas-left.active {
+        left: 50%; /* 6 columns */
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+        width: 50%; /* 6 columns */
+    }
+}
