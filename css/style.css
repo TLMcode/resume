@@ -6,20 +6,19 @@ html,
 body {
     overflow-x: hidden; /* Prevent scroll on narrow devices */
     color: #8e8d8d;
-    font-family: 'Arvo';
 }
 footer {
     padding: 30px 0;
 }
 
-h2 {
-    font: 2.9em 'Arvo', serif;
-    line-height: 0.8em;
-    color: #464646;
-    font-weight: normal;
-    margin-bottom: 3px;
-    padding-bottom: 20px;
+
+h1, h2, h3, h4, h5 {
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    color: #818181;
+    text-transform: uppercase;
 }
+
 .header_wrapper {
     width: 100%;
     padding: 0;
@@ -36,9 +35,27 @@ h2 {
 
 .name {
     margin-bottom: 15px;
-    font: 4em 'Arvo', serif; /* 60px/10 */
-    line-height: 0.66666666em; /* 40px/60px */
-    font-weight: bold;
+    font-size: 45px;
+    font-family: 'Oswald', serif; /* 60px/10 */
+    line-height: 50px; /* 40px/60px */
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #464646;
+    /* Positioning & Display */
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 20px;
+    z-index: 2;
+}
+
+.name .intro{
+    margin-bottom: 15px;
+    font-size: 45px;
+    font-family: 'Oswald', serif; /* 60px/10 */
+    line-height: 50px; /* 40px/60px */
+    font-weight: 300;
+    text-transform: uppercase;
     color: #464646;
     /* Positioning & Display */
     display: inline-block;
@@ -47,17 +64,29 @@ h2 {
     z-index: 2;
 }
 
+.name img {
+    padding-top: 20px;
+}
 .section {
     font-size: 0.9em;
     font-weight: normal;
 }
 
+.skills, .experience, .education{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.description {
+    padding-top: 30px;
+}
+
 .description .role {
-    font-family: inherit;
-    line-height: 1.1;
     color: inherit;
-    font: 2.1em 'Arvo', serif; /* 21px/10 */
-    font-weight: normal;
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 50px; /* 40px/60px */
+    font-weight: 300;
     color: #616161;
     margin: -4px 0 25px 0;
 }
@@ -74,20 +103,23 @@ h2 {
     padding-right: 20px;
     padding-bottom: 20px;
     font-family: 'Droid Sans', sans-serif; /* 14px/10 */
-    font-size: 0.91em;
-    line-height: 1.4em;
+    font-size: 0.99em;
+    line-height: 1.7em;
     color: #8e8d8d;
     text-align: left;
 }
 
+.connect {
+    padding-top: 30px;
+}
+
 .connect .title {
-    font-family: inherit;
-    font-weight: 500;
-    line-height: 1.1;
     color: inherit;
-    font: 1.6em 'Arvo', serif; /* 29px/10 */
+    font-size: 35px;
+    font-family: 'Oswald', sans-serif;
+    line-height: 50px; /* 40px/60px */
+    font-weight: 300;
     color: #464646;
-    font-weight: normal;
     margin-bottom: 3px;
     margin-top: 0;
 }
